@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url("5.svg");
+    background-size: 100%;
+    color: black;
+    font-size: 35px;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.header p1 {
+    font-size: 20px;
+}
+.navbar {
+    overflow: hidden;
+    background-color:white;
+    color: #000080;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 20px;
+    margin-left: 15px;
+    text-decoration:double ;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    color: #000080;
+    font-size: 18,5px;
+
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    font-family: comic sense;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+.block_img_center {
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    position:relative;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+}
+.img_description {
+    display:block;
+    margin:10px 0 5px;
+    font-family: Ubuntu-Light-Italic;
+    word-break:break-word;
+    line-height:normal;
+    font-size:30px
+}
+
+.haha {
+    display: inline-flex;
+    margin-inline: 5px;
+}
+h1 {
+    color: rgb(14, 13, 13);
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    color:rgb(16, 79, 58);
+    text-align: right;
+    font-size: 80px;
+    padding-top: 22%;
+    padding-block-end: 5%;
+}
+p {
+    font-size: 25px;
+    text-indent: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.index {
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: #E6E6FA;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+  <a href="./index.html">Головна сторінка</a>
+  <a href="./history.html">Історія</a>
+  <a href="./games.html">Ігри</a>
+  <a href="./design.html">Дизайн</a>
+  <a href="./top.html">ТОП-10</a>
+  <a href="./devps.html"> Розробники</a>
+  <a href="./jenre.html">Жанри</a>
+  <a href="./delopment.html">Розробка ігор</a>
+  <a href="./water.html">Джерела</a>
+    </div>
+    <div class="main">
+    <div class="index"><h3> Дизайн ігор</h3>
+    <p> Геймдизайнер – фахівець, який розробляє правила, стиль і дизайн комп’ютерних ігор. Роль геймдизайнера аналогічна ролі постановника завдання в звичайному програмуванні і режисера в кіно.</p>
+    <h1>Творча групи, задіяна в дизайні комп’ютерної гри:</h1>
+    <p><ul>
+        <li><b>провідний гейм-дизайнер</b> – окрім генерування і розвитку основної ідеї, його завданням є координація роботи інших дизайнерів. Його робота побудована на тісній взаємодії з арт-директором та провідним програмістом і полягає не тільки в додаванні ідей в гру, але і у визначенні того, що варто в неї вносити, а що – ні. Крім цього він, як фахівець, що володіє великим досвідом, вирішує завдання, з якими не в змозі впоратися рядовий дизайнер.</li>
+        <li> <b>дизайнер ігрової механіки</b> – як правило, він у минулому був програмістом і уявляє, як ідеї перетворюються в програмний код. У його завдання входить складання списку вимог програмістам, на основі ідеї майбутньої гри, яку він отримує від провідного дизайнера і уточнює в процесі консультацій з дизайнером місії або рівні. А далі багаторазово програє окремі фрагменти гри, щоб отримати уявлення, наскільки їх розуміння ігрової механіки збалансовано.</li>
+        <li> <b>дизайнер місій або рівнів</b> – фахівець, який розробляє код для вбудованого в гру інтерпретатора, що створює ігрову карту в редакторі рівнів, що описує на формальній мові з чого повинен складатися ігровий рівень.</li>
+        <li> <b>дизайнер інтерфейсу</b> користувача розробляє функціональність призначеного для користувача інтерфейсу, включаючи його збірку з контенту наданого художниками за допомогою інструментів, зроблених програмістами.</li>
+        <li><b>сценарист</b> – на відміну від письменника або сценариста в кіно, його розповідь має бути інтерактивною. Тобто він повинен постійно обговорювати подальший розвиток сюжету з дизайнерами, щоб визначити – що можливо зробити на скриптовій мові, в редакторі карт і інших утилітах. Як і колеги по літературі і кіно, він повинен добре володіти розмовною мовою і літературною мовою, цей талант на кшталт музичного слуху, і дозволяє ігровим персонажам звучати реалістично.</li>
+    </ul></p>
+    </div>
+    </div>
+
+    <div class="footer">
+        <h2 text-align="right">Ви можете зв'язатися з нами</h2>
+      <dl>
+        <dd> Instagram: games </dd>
+        <dd> Facebook: Computer Games </dd>
+        <dd> +380681743410 </dd>
+        <dd> ел: idon'tfunnyfunny@gmail.com </dd>
+      </dl>
+    </div>
+</body>
+</html>

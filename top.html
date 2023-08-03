@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.fluid{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-block-end:: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url("5.svg");
+    background-size: 100%;
+    color: black;
+    font-size: 35px;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.header p1 {
+    font-size: 20px;
+}
+.navbar {
+    overflow: hidden;
+    background-color:white;
+    color: #000080;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 20px;
+    margin-left: 15px;
+    text-decoration:double ;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    color: #000080;
+    font-size: 18,5px;
+
+}
+
+em {
+    font-size: 16px;
+    text-align: right;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    font-family: comic sense;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+.block_img_center {
+    width: 800px;
+    height: 400px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    position:relative;
+    /* padding-left: 15%;
+    padding-right: 15%; */в
+}
+.img_description {
+    display:block;
+    margin:10px 0 5px;
+    font-family: Ubuntu-Light-Italic;
+    word-break:break-word;
+    line-height:normal;
+    font-size:30px
+}
+
+.haha {
+    display: inline-flex;
+    margin-inline: 5px;
+}
+h1 {
+    color: rgb(14, 13, 13);
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    color:rgb(16, 79, 58);
+    text-align: right;
+    font-size: 80px;
+    padding-top: 22%;
+    padding-block-end: 5%;
+}
+p {
+    font-size: 25px;
+    text-indent: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.index {
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: #E6E6FA;
+    padding: 20px;
+
+}
+
+.slider {
+    border: 5px solid grey;
+    max-width: 70%;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+.slider-line {
+    display: flex;
+    transition: all ease 2s;
+}
+.button {
+    position: absolute;
+    top: 50%;
+}
+.btn-next {
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    opacity: 0.28;
+    color: grey;
+}
+.btn-prev{
+    left: 3px;
+    height: 40px;
+    width: 40px;
+
+    color: grey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+  <a href="./index.html">Головна сторінка</a>
+  <a href="./history.html">Історія</a>
+  <a href="./games.html">Ігри</a>
+  <a href="./design.html">Дизайн</a>
+  <a href="./top.html">ТОП-10</a>
+  <a href="./devps.html"> Розробники</a>
+  <a href="./jenre.html">Жанри</a>
+  <a href="./delopment.html">Розробка ігор</a>
+  <a href="./water.html">Джерела</a>
+    </div>
+
+    <div class="main">
+
+        <h1 text-align="center">10 найгарніших комп'ютерних ігор</h1>
+            <em> За виданням UBR </em>
+        <div class="container">
+
+            <div class="slider">
+                 <div class="slider-line">
+                    <img src="h20.jpg" alt="1" class="slider-item">
+                    <img src="h21.jpg" alt="2" class="slider-item">
+                    <img src="h22.jpg" alt="3" class="slider-item">
+                    <img src="h23.jpg" alt="4" class="slider-item">
+                    <img src="h24.jpg" alt="5" class="slider-item">
+                    <img src="h25.jpg" alt="6" class="slider-item">
+                    <img src="h26.jpg" alt="7" class="slider-item">
+                    <img src="h27.jpg" alt="8" class="slider-item">
+                    <img src="h28.jpg" alt="9" class="slider-item">
+                    <img src="h29.jpg" alt="10" class="slider-item">
+                </div>
+                <button class=" button btn-prev">&#10094;</button>
+                <button class=" button btn-next">&#10095;</button>
+            </div>
+    </div>
+    </div>
+
+     <script src="scriptt.js"></script>
+    <div class="footer">
+        <h2 text-align="right">Ви можете зв'язатися з нами</h2>
+      <dl>
+        <dd> Instagram: games </dd>
+        <dd> Facebook: Computer Games </dd>
+        <dd> +380681743410 </dd>
+        <dd> ел: idon'tfunnyfunny@gmail.com </dd>
+      </dl>
+    </div>
+</body>
+</html>
